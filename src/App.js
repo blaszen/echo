@@ -1,10 +1,12 @@
-
+import {Container, Typography} from '@mui/material';
 
 function App() {
   return (
-    <div >
-     hello
-    </div>
+  <Container>
+    <Typography variant='h2' align='center'>
+      Echo
+    </Typography>
+  </Container>
   );
 }
 
